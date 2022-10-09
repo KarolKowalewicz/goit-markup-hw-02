@@ -70,7 +70,9 @@ body {
 .button-link:hover {
   color: #2196f3;
 }
-
+.button-link:focus {
+  color: #2196f3;
+}
 .img-portfolio {
   width: 370px;
   height: 294px;
