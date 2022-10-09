@@ -32,6 +32,10 @@ body {
   color: #2196f3;
 }
 
+.navigation:focus {
+  color: #2196f3;
+}
+
 .kontakt {
   text-decoration: none;
   color: #757575;
@@ -51,8 +55,8 @@ body {
 .button {
   background-color: #f5f4fa;
   border: none;
-   margin: 8px 4px;
- }
+  margin: 8px 4px;
+}
 
 .button-link {
   color: #212121;
@@ -67,10 +71,9 @@ body {
   color: #2196f3;
 }
 
-
 .img-portfolio {
-   width: 370px;
-   height: 294px;
+  width: 370px;
+  height: 294px;
 }
 
 .footer {
@@ -78,5 +81,4 @@ body {
   color: #ffffff;
   text-decoration: none;
   padding: 10px 10px 30px 150px;
-  
 }
