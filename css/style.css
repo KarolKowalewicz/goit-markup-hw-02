@@ -38,6 +38,7 @@ body {
   font-size: 14px;
   line-height: 1.17;
 }
+
 .button {
   background-color: #f5f4fa;
   border: none;
@@ -48,4 +49,18 @@ body {
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+}
+
+.banner-background {
+  background-color: #2f303a;
+  width: 1000px;
+  height: 200px;
+  padding: 200px;
+  color: #ffffff;
+}
+
+.footer {
+  background-color: #2f303a;
+  color: #ffffff;
+  text-decoration: none;
 }
