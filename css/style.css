@@ -6,3 +6,46 @@ body {
   font-size: 24px;
   line-height: 1;
 }
+
+.logo-text-black {
+  font-family: 'Raleway', sans-serif;
+  color: #000000;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.4;
+}
+
+.logo-text-blue {
+  color: #2196f3;
+}
+
+.list-menu {
+  padding: 0 24px;
+}
+
+.navigation {
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.navigation:hover {
+  color: #2196f3;
+}
+
+.kontakt {
+  text-decoration: none;
+  color: #757575;
+  font-size: 14px;
+  line-height: 1.17;
+}
+.button {
+  background-color: #f5f4fa;
+  border: none;
+  color: #212121;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
