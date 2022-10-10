@@ -1,23 +1,27 @@
+:root {
+  --color: #212121;
+  --hover-color: #2196f3;
+}
+
 body {
-  font-family: 'Raleway', sans-serif;
-  font-family: 'Roboto', sans-serif;
-  color: #212121;
+  font-family: 'Raleway', 'Roboto', sans-serif;
+  color: var(--color);
   font-weight: 400;
   font-size: 24px;
-  line-height: 1;
+  line-height: 1.2;
 }
 
 .logo-text-black {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', 'Roboto', sans-serif;
   color: #000000;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.4;
-   text-decoration: none;
+  text-decoration: none;
 }
 
 .logo-text-blue {
-  color: #2196f3;
+  color: var(--hover-color);
 }
 
 .list-menu {
@@ -30,11 +34,11 @@ body {
 }
 
 .navigation:hover {
-  color: #2196f3;
+  color: var(--hover-color);
 }
 
 .navigation:focus {
-  color: #2196f3;
+  color: var(--hover-color);
 }
 
 .kontakt {
@@ -57,26 +61,30 @@ body {
   background-color: #f5f4fa;
   border: none;
   margin: 8px 4px;
-}
-
-.button-link {
-  color: #212121;
+  color: var(--color);
+  width: 150px;
+  height: 50px;
   padding: 15px 32px;
   text-align: center;
   display: inline-block;
   font-size: 16px;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .button-link:hover {
-  color: #2196f3;
+  color: var(--hover-color);
 }
 .button-link:focus {
-  color: #2196f3;
+  color: var(--hover-color);
 }
 .img-portfolio {
   width: 370px;
   height: 294px;
+}
+.portfolio {
+  list-style: none;
+  display: inline-flex;
 }
 
 .footer {
