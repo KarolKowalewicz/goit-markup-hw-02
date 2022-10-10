@@ -81,9 +81,11 @@ body {
 .img-portfolio {
   width: 370px;
   height: 294px;
+  margin:15px 15px 15px 15px;
 }
 .portfolio {
   list-style: none;
+  
   display: inline-flex;
 }
 
