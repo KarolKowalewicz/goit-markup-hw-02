@@ -59,6 +59,11 @@ body {
   font-size: 14px;
 }
 
+.kontakt:hover,
+.kontakt:focus {
+  color: var(--hover-color);
+}
+
 .banner-background {
   background-color: #2f303a;
   text-align: center;
@@ -120,4 +125,8 @@ body {
   color: #ffffff;
   text-decoration: none;
   padding: 10px 10px 30px 150px;
+}
+
+.address {
+  font-size: 14px;
 }
