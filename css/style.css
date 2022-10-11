@@ -4,7 +4,7 @@
 }
 
 body {
-    font-size: 2rem;
+  font-size: 2rem;
   font-family: 'Raleway', 'Roboto', sans-serif;
   color: var(--color);
   font-weight: 400;
@@ -78,21 +78,24 @@ body {
   cursor: pointer;
   text-decoration: none;
 }
+
 .button-list {
-  list-style: none; 
+  list-style: none;
   display: inline-flex;
 }
 
-.button-link:hover {
+.button:hover {
   color: var(--hover-color);
 }
-.button-link:focus {
+
+.button:focus {
   color: var(--hover-color);
 }
+
 .img-portfolio {
   width: 370px;
   height: 294px;
-  margin:15px 15px 15px 15px;
+  margin: 15px 15px 15px 15px;
 }
 
 .portfolio {
@@ -110,6 +113,7 @@ body {
   font-family: 'Roboto';
   color: #757575;
 }
+
 .footer {
   background-color: #2f303a;
   color: #ffffff;
