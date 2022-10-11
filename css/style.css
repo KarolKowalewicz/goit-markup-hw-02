@@ -5,13 +5,13 @@
 
 body {
   font-size: 2rem;
-  font-family: 'Raleway', 'Roboto', sans-serif;
+  font-family: 'Roboto', 'Raleway', sans-serif;
   color: var(--color);
   font-weight: 400;
 }
 
 .logo-text-black {
-  font-family: 'Raleway', 'Roboto', sans-serif;
+  font-family: 'Roboto', 'Raleway', sans-serif;
   color: #000000;
   font-weight: 700;
   font-size: 26px;
@@ -20,7 +20,7 @@ body {
 }
 
 .logo-text-white {
-  font-family: 'Raleway', 'Roboto', sans-serif;
+  font-family: 'Roboto', 'Raleway', sans-serif;
   color: #ffffff;
   font-weight: 700;
   font-size: 26px;
@@ -38,7 +38,7 @@ body {
 
 .navigation {
   text-decoration: none;
-  font-size: 1.4rem;
+  font-size: 14px;
 }
 
 .navigation:hover,
@@ -49,15 +49,14 @@ body {
 
 .active {
   text-decoration: none;
-    font-size: 26px;
+  font-size: 14px;
   color: var(--hover-color);
-
 }
 
 .kontakt {
   text-decoration: none;
   color: #757575;
-  font-size: 1.4rem;
+  font-size: 14px;
 }
 
 .banner-background {
