@@ -4,16 +4,24 @@
 }
 
 body {
+    font-size: 2rem;
   font-family: 'Raleway', 'Roboto', sans-serif;
   color: var(--color);
   font-weight: 400;
-  font-size: 24px;
-  line-height: 1.2;
 }
 
 .logo-text-black {
   font-family: 'Raleway', 'Roboto', sans-serif;
   color: #000000;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.4;
+  text-decoration: none;
+}
+
+.logo-text-white {
+  font-family: 'Raleway', 'Roboto', sans-serif;
+  color: #ffffff;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.4;
@@ -30,7 +38,7 @@ body {
 
 .navigation {
   text-decoration: none;
-  font-size: 14px;
+  font-size: 1.4rem;
 }
 
 .navigation:hover {
@@ -44,8 +52,7 @@ body {
 .kontakt {
   text-decoration: none;
   color: #757575;
-  font-size: 14px;
-  line-height: 1.17;
+  font-size: 1.4rem;
 }
 
 .banner-background {
@@ -71,6 +78,10 @@ body {
   cursor: pointer;
   text-decoration: none;
 }
+.button-list {
+  list-style: none; 
+  display: inline-flex;
+}
 
 .button-link:hover {
   color: var(--hover-color);
@@ -83,12 +94,22 @@ body {
   height: 294px;
   margin:15px 15px 15px 15px;
 }
+
 .portfolio {
   list-style: none;
-  
   display: inline-flex;
 }
 
+.project-info {
+  color: #212121;
+  font-family: 'Roboto';
+  font-size: 18px;
+}
+.kategory {
+  font-size: 16px;
+  font-family: 'Roboto';
+  color: #757575;
+}
 .footer {
   background-color: #2f303a;
   color: #ffffff;
