@@ -49,6 +49,14 @@ body {
   color: var(--hover-color);
 }
 
+.navigation:active {
+  color: var(--hover-color);
+}
+
+.navigation: {
+  color: var(--hover-color);
+}
+
 .kontakt {
   text-decoration: none;
   color: #757575;
