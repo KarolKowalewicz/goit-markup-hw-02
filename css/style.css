@@ -41,19 +41,9 @@ body {
   font-size: 1.4rem;
 }
 
-.navigation:hover {
-  color: var(--hover-color);
-}
-
-.navigation:focus {
-  color: var(--hover-color);
-}
-
+.navigation:hover, 
+.navigation:focus,
 .navigation:active {
-  color: var(--hover-color);
-}
-
-.navigation: {
   color: var(--hover-color);
 }
 
@@ -92,10 +82,7 @@ body {
   display: inline-flex;
 }
 
-.button:hover {
-  color: var(--hover-color);
-}
-
+.button:hover,
 .button:focus {
   color: var(--hover-color);
 }
